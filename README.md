@@ -1,7 +1,9 @@
 <div align="center">
-  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1zbGFjayI+PHJlY3Qgd2lkdGg9IjMiIGhlaWdodD0iOCIgeD0iMTMiIHk9IjIiIHJ4PSIxLjUiLz48cGF0aCBkPSJNMTkgOC41VjEwaDEuNUExLjUgMS41IDAgMSAwIDE5IDguNSIvPjxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjgiIHg9IjgiIHk9IjE0IiByeD0iMS41Ii8+PHBhdGggZD0iTTUgMTUuNVYxNEgzLjVBMS41IDEuNSAwIDEgMCA1IDE1LjUiLz48cmVjdCB3aWR0aD0iOCIgaGVpZ2h0PSIzIiB4PSIxNCIgeT0iMTMiIHJ4PSIxLjUiLz48cGF0aCBkPSJNMTUuNSAxOUgxNHYxLjVhMS41IDEuNSAwIDEgMCAxLjUtMS41Ii8+PHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iMyIgeD0iMiIgeT0iOCIgcng9IjEuNSIvPjxwYXRoIGQ9Ik04LjUgNUgxMFYzLjVBMS41IDEuNSAwIDEgMCA4LjUgNSIvPjwvc3ZnPg==" alt="PurePick Logo" width="200"/>
+  <img src="public\assets\PurePick-logo-white.png" alt="PurePick Logo" width="100"/>
   
   # PurePick Backend 🚀
+
+  [![Live Demo](https://img.shields.io/badge/LIVE_DEMO-Try_PurePick_→-4F46E5?style=for-the-badge&labelColor=000000&logo=vercel&logoColor=white)](https://purepick.vercel.app/)
   
   [![Node.js Version](https://img.shields.io/badge/node-20.x-brightgreen.svg)](https://nodejs.org/)
   [![Socket.IO](https://img.shields.io/badge/Socket.IO-v4.7.5-blue.svg)](https://socket.io/)
@@ -85,7 +87,7 @@
   If you find PurePick useful, give us a star! ⭐
   
   ---
-  Built with 💻 and ❤️ by the PurePick Team
+  Built with 💻 and ❤️ by the Devendra Suryavanshi
 </div>
 
 ## 🤝 Contributing

@@ -24,7 +24,7 @@ const port = 7000;
 
 // Enable CORS
 app.use(cors({
-    origin: ['https://test-eight-mu-85.vercel.app', 'http://localhost:3000'],
+    origin: ['https://purepick.vercel.app', 'http://localhost:3000'],
     methods: ['GET', 'POST'],
 }));
 
@@ -37,7 +37,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
     maxHttpBufferSize: 5 * 1024 * 1024, // 5MB
     cors: {
-        origin: ['https://test-eight-mu-85.vercel.app', 'http://localhost:3000'],
+        origin: ['https://purepick.vercel.app', 'http://localhost:3000'],
         methods: ["GET", "POST"],
     },
 });
@@ -74,7 +74,7 @@ io.on('connection', (socket) => {
 
 
 if (process.env.NODE_ENV === 'production') {
-    const url = 'YOUR_RENDER_URL'; // Your Render deployment URL
+    const url = 'https://purepick-backend.onrender.com/';
     keepAlive(url);
 }
 
