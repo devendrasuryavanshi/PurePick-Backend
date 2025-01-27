@@ -1,0 +1,9 @@
+config.env
+
+/node_modules
+
+.env
+*.json.json
+google-drive-key.json
+
+vercel.json
