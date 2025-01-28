@@ -87,7 +87,7 @@
   If you find PurePick useful, give us a star! ⭐
   
   ---
-  Built with 💻 and ❤️ by the Devendra Suryavanshi
+  Built with 💻 and ❤️ by Devendra Suryavanshi
 </div>
 
 ## 🤝 Contributing
