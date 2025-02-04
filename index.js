@@ -6,6 +6,7 @@ import mongoose from 'mongoose';
 import { User } from './models/user.js';
 import { processData } from './utils/process-data.js';
 import { keepAlive } from './utils/keep-alive.js';
+import otpRoutes from './routes/otp.routes.js';
 
 const dbUrl = process.env.ATLASDB_URL;
 
@@ -32,6 +33,10 @@ app.use(cors({
 app.get('/', (req, res) => {
     res.json({ msg: 'Hello World' });
 });
+
+app.use(express.json());
+
+app.use('/api', otpRoutes);
 
 const server = http.createServer(app);
 const io = new Server(server, {
