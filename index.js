@@ -79,7 +79,7 @@ io.on('connection', (socket) => {
 
 
 if (process.env.NODE_ENV === 'production') {
-    const url = 'https://purepick-backend.onrender.com/';
+    const url = 'https://purepick-backend-b90b.onrender.com';
     keepAlive(url);
 }
 
