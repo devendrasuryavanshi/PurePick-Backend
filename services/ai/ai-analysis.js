@@ -14,7 +14,7 @@ const getAIAnalysis = async(productDetails, productAdditoinalInfo, userDetails) 
         const prompt = AIAnalysisPrompt(productDetails, productAdditoinalInfo, userDetails);
 
         const model = genAI.getGenerativeModel({
-            model: "gemini-2.0-flash-exp",
+            model: "gemini-2.0-flash",
             tools: [googleSearchTool]
         });
 
